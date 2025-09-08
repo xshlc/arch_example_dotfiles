@@ -1,3 +1,24 @@
+# **FORK OF [shub39's dotfiles](https://github.com/shub39/dotfiles):**
+## Installation
+
+- Clone this repo at `.config/` in your home directory
+
+```bash
+git clone https://github.com/xshlc/arch_example_dotfiles.git
+```
+
+- Edit `~/.config/hypr/hyprland.conf` to only include `source = ~/.config/arch_example_dotfiles/hyprland/hyprland.conf`
+```bash
+echo 'source = ~/.config/arch_example_dotfiles/hyprland/hyprland.conf' > ~/.config/hypr/hyprland.conf
+```
+
+- Reboot
+
+# **END OF MY NOTES**
+---
+
+
+# **ORIGINAL CONTENTS OF README:**
 # **`shub39's` Hyprland Dotfiles**
 
 My config files for hyprland and other utilities with some shell scripts that I have been daily driving for about 7 months now. **Heavily customised for my workflow and only meant to be a reference**
