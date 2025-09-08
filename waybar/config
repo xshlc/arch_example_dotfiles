@@ -19,7 +19,7 @@
   "temperature", 
   "memory",
   "custom/cava",
-  "mpris"
+  "mpris",
 	],
 
 "modules-center": [
@@ -27,13 +27,12 @@
 	], 
 
 "modules-right": [
-	"wlr/taskbar",
-
-	"network",
+	"wlr/taskbar",	
 	"custom/swaync",
-	"bluetooth",
 	"pulseaudio",
 	"battery",
-	"backlight"
+	"backlight",
+	"network",
+	"bluetooth"
 	]
 }
