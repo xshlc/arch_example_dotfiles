@@ -14,8 +14,11 @@
 
 "modules-left": [
   "hyprland/workspaces",
-  "clock",
-	"custom/cava",
+  "clock",	
+  "cpu", 
+  "temperature", 
+  "memory",
+  "custom/cava",
   "mpris"
 	],
 
@@ -25,11 +28,12 @@
 
 "modules-right": [
 	"wlr/taskbar",
-	"cpu", 
-	"temperature", 
-	"memory",
+
+	"network",
 	"custom/swaync",
+	"bluetooth",
 	"pulseaudio",
-	"battery"
+	"battery",
+	"backlight"
 	]
 }
