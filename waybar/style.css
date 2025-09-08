@@ -1,5 +1,5 @@
 * {
-  font-family: "JetBrainsMonoNerdFontMono";
+  font-family: "JetBrainsMonoNerdFontMono", "Symbols Nerd Font", sans-serif;
   font-weight: bold;
   min-height: 0;
   font-size: 100%;
@@ -55,6 +55,10 @@ tooltip label {
   padding-bottom: 3px;
   padding-left: 6px;
   padding-right: 6px;
+}
+
+#battery {
+  color: #ff0000;
 }
 
 #window {

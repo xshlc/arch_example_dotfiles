@@ -1,5 +1,5 @@
 {
-"include": "~/.config/dotfiles/waybar/modules",
+"include": "~/.config/arch_example_dotfiles/waybar/modules",
 "layer": "top",
 "exclusive": true,
 "passthrough": false,

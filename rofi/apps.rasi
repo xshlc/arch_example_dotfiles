@@ -16,4 +16,4 @@ configuration {
 }
 
 
-@theme "~/.config/dotfiles/rofi/gruvbox-material.rasi"
+@theme "~/.config/arch_examples_dotfiles/rofi/gruvbox-material.rasi"
