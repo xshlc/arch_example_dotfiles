@@ -73,6 +73,11 @@
     "on-click-right": "kitty -c ~/.config/dotfiles/kitty/kitty.conf --title btop sh -c 'btop'"
   },
 
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+
   "mpris": {
     "interval": 10,
     "format": " {title} ",
