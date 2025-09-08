@@ -80,7 +80,7 @@
       "critical": 15
     },
     "format": "{capacity}% {icon}",
-    "format-charging": " 󱐋{capacity}%",
+    "format-charging": "{capacity}% [󱐋]",
 	  "interval": 1,
     "format-icons": ["󰂎", "󰁼", "󰁿", "󰂁", "󰁹"],
     "tooltip": true

@@ -28,8 +28,8 @@
 	"cpu", 
 	"temperature", 
 	"memory",
-	"battery",
 	"custom/swaync",
-	"pulseaudio"
+	"pulseaudio",
+	"battery"
 	]
 }
