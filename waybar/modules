@@ -13,8 +13,9 @@
       "3": []
     },
     "format-icons": {
-      "active": "[A]",
+      "active": "[✦]",
       "default": "[ ]"
+      /* ☰  ⯀  ✧  ✦  ⛝  ×  ✖  ✗*/ 
     }
   },
 
