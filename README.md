@@ -14,6 +14,16 @@ echo 'source = ~/.config/arch_example_dotfiles/hyprland/hyprland.conf' > ~/.conf
 
 - Reboot
 
+### NOTES
+
+`/home/sol/.config/arch_example_dotfiles/swaync/config.json`
+
+```json
+"cssPriority": "user",
+```
+`user` -- overrides `XDG_CONFIG_HOME/gtk-4.0/gtk.css`
+`application` -- applies the current `gtk-4.0` theme
+
 # **END OF MY NOTES**
 ---
 

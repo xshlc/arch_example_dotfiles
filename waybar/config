@@ -19,7 +19,7 @@
   "temperature", 
   "memory",
   "custom/cava",
-  "mpris",
+  "mpris"
 	],
 
 "modules-center": [
