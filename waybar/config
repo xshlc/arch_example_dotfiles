@@ -33,6 +33,7 @@
 	"battery",
 	"backlight",
 	"network",
-	"bluetooth"
+	"bluetooth",
+	"custom/ime",
 	]
 }

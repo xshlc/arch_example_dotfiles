@@ -18,6 +18,24 @@
       /* ☰  ⯀  ✧  ✦  ⛝  ×  ✖  ✗*/ 
     }
   },
+  
+  /*
+  "custom/ime": {
+    "exec": "fcitx5-remote",
+    "interval": 1,
+    "format": " {}",
+    "return-type": "json",
+    "format-alt": "{icon}",
+    "exec-if": "which fcitx5-remote"
+  },
+  */
+
+  "custom/ime": {
+    "exec": "~/.config/arch_example_dotfiles/hyprland/scripts/ime-status.sh",
+    "interval": 1,
+    "format": "{}"
+  },
+
 
   "clock": {
     "interval": 1,
@@ -185,7 +203,7 @@
   },
 
   "network": {
-    "format-wifi": "{essid}<span color='#00FFFF'> 󰤨  </span>",
+    "format-wifi": "{essid}<span color='#00FFFF'> 󰤨 </span>",
     "format-ethernet": "Wired<span color='#7FFF00'> </span>",
     "tooltip-format": "{bandwidthUpBytes} <span color='#FF1493'>󰅧 </span>  {bandwidthDownBytes} <span color='#00BFFF'>󰅢 </span>",
     "format-linked": "{ifname} (No IP) <span color='#FFA500'> 󱘖 </span>",
@@ -208,7 +226,7 @@
   },
 
   "bluetooth": {
-    "format": "{status} <span color='#00BFFF'></span>",
+    "format": "{status} <span color='#00BFFF'></span> ",
     "format-connected": "{device_alias} <span color='#00BFFF'></span>",
     "format-connected-battery": "{device_alias}{device_battery_percentage}% <span color='#00BFFF'></span>",
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
