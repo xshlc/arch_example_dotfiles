@@ -40,7 +40,7 @@
   "clock": {
     "interval": 1,
     "format": " [T] {:%I:%M %p} ",
-    "format-alt": " [T] {:%I:%M %p [D]  %Y, %d %B, %A} ",
+    "format-alt": " [T] {:%I:%M %p [D] %Y, %d %B, %A} ",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "calendar": {
       "mode": "year",
@@ -195,7 +195,7 @@
       "warning": 30,
       "critical": 15
     },
-    "format": " {capacity}% {icon} ",
+    "format": "{capacity}% {icon}",
     "format-charging": "{capacity}% [󱐋]",
 	  "interval": 1,
     "format-icons": ["󰂎", "󰁼", "󰁿", "󰂁", "󰁹"],
@@ -203,7 +203,7 @@
   },
 
   "network": {
-    "format-wifi": "{essid}<span color='#00FFFF'> 󰤨 </span>",
+    "format-wifi": "{essid}<span color='#00FFFF'> 󰤨</span>",
     "format-ethernet": "Wired<span color='#7FFF00'> </span>",
     "tooltip-format": "{bandwidthUpBytes} <span color='#FF1493'>󰅧 </span>  {bandwidthDownBytes} <span color='#00BFFF'>󰅢 </span>",
     "format-linked": "{ifname} (No IP) <span color='#FFA500'> 󱘖 </span>",
@@ -214,7 +214,7 @@
 
   "backlight": {
     "device": "intel_backlight",
-    "format": " {percent}% {icon} ",
+    "format": " {percent}% {icon}",
     "tooltip": true,
     "tooltip-format": "当前屏幕亮度: {percent}%",
     "format-icons": [

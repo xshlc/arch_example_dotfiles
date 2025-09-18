@@ -29,11 +29,11 @@
 "modules-right": [
 	"wlr/taskbar",	
 	"custom/swaync",
+	"custom/ime",
 	"pulseaudio",
 	"battery",
 	"backlight",
 	"network",
 	"bluetooth",
-	"custom/ime",
 	]
 }
