@@ -203,12 +203,12 @@
   },
 
   "network": {
-    "format-wifi": "{essid}<span color='#00FFFF'> 󰤨</span>",
+    "format-wifi": "{essid}<span color='#ebdbb2'> 󰤨</span>",
     "format-ethernet": "Wired<span color='#7FFF00'> </span>",
     "tooltip-format": "{bandwidthUpBytes} <span color='#FF1493'>󰅧 </span>  {bandwidthDownBytes} <span color='#00BFFF'>󰅢 </span>",
     "format-linked": "{ifname} (No IP) <span color='#FFA500'> 󱘖 </span>",
     "format-disconnected": "Disconnected<span color='#FF4040'>  </span>",
-    "format-alt": "{signalStrength}% <span color='#00FFFF'> 󰤨 </span>",
+    "format-alt": "{signalStrength}% <span color='#ebdbb2'> 󰤨 </span>",
     "interval": 1
   },
 
@@ -226,7 +226,7 @@
   },
 
   "bluetooth": {
-    "format": "{status} <span color='#00BFFF'></span> ",
+    "format": "{status} <span color='#ebdbb2'></span> ",
     "format-connected": "{device_alias} <span color='#00BFFF'></span>",
     "format-connected-battery": "{device_alias}{device_battery_percentage}% <span color='#00BFFF'></span>",
     "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
